@@ -7,8 +7,8 @@
   /* Переменные светлой темы */
   --main-font: 'IBM Plex Mono', monospace;
   --text-color: #353430; /*#353430*/
-  --accent-color: #FF8DCB;
-  --bg-image: url(../images/cover-image-light.png) lightgray 50% / cover no-repeat;
+  --accent-color: #FF8DCB; /*#DB00FF*/
+  --backgroundimage: url(../images/cover-image-light.png);
   --background-color: #FFF1F7;
 }
 

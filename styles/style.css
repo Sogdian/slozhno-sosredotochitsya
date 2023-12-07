@@ -6,29 +6,26 @@ html {
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: var(--bg-image);
+  background-image: var(--backgroundimage);
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-color: var(--background-color);
   font-family: var(--main-font);
   color: var(--text-color);
   font-size: 18px;
-
 }
 
 .header {
   min-block-size: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 130px 1fr;
-}
-
-.header__theme-menu {
+  grid-template-rows: 1fr minmax(130px, 192px) 1fr;
   position: relative;
 }
 
-.header__theme-menu::after {
+.header::before {
   content: "";
   position: absolute;
   border-top: 1px solid #353430;
@@ -37,6 +34,17 @@ html {
   height: 25px;
   top: 20px;
   right: 20px;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #353430;
+  border-left: 1px solid #353430;
+  width: 25px;
+  height: 25px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .header__theme-menu-list {
@@ -117,8 +125,13 @@ html {
 .header__theme-menu-button_active:focus-visible {
 }
 
+.footer {
+  min-block-size: 100vh;
+}
+
 @media(1200px <= width <= 1400px) {
   body {
     /*background-color: red;*/
   }
 }
+
