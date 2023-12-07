@@ -6,7 +6,8 @@
 :root {
   /* Переменные светлой темы */
   --main-font: 'IBM Plex Mono', monospace;
-  --text-color: #353430;
+  --text-color: #353430; /*#353430*/
+  --accent-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png) lightgray 50% / cover no-repeat;
   --background-color: #FFF1F7;
 }

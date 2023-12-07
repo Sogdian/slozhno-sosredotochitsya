@@ -1,5 +1,9 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+html {
+  background-color: gray; /* DELETE*/
+}
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--bg-image);
@@ -7,37 +11,73 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--background-color);
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-size: 18px;
+
 }
 
 .header {
   min-block-size: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 130px 1fr;
+}
+
+.header__theme-menu {
+  position: relative;
+}
+
+.header__theme-menu::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid #353430;
+  border-right: 1px solid #353430;
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 20px;
 }
 
 .header__theme-menu-list {
   display: flex;
+  justify-content: center;
+  margin-block-start: 20px;
+  column-gap: 10px;
+  align-items: center;
 }
 
-.rec {
-  position: absolute;
-}
+/*.rec {*/
+/*  position: absolute;*/
+/*}*/
 
-.rec::after {
-  content: "";
-  position: absolute;
-}
+/*.rec::after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*}*/
 
 .heading {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   text-shadow: 4px 4px 0 var(--accent-color);
   color: #FFC2E6;
-  font-family: 'IBM Plex Mono', monospace;
+  line-height: 0.825;
+  grid-row: 2/3;
+  align-self: center;
+}
+
+.header__paragraph {
+  max-width: 491px;
+  align-self: center;
+  justify-self: flex-end;
+
   font-style: normal;
-  font-weight: 700;
-  line-height: 0.99;
+  line-height: 1.3;
+  margin-inline-end: 20px;
 }
 
 .title-decor {
   background: #FF8DCB;
+  font-weight: 700;
 }
 
 .theme-auto {
@@ -46,14 +86,26 @@
 
 @media (prefers-color-scheme: dark) {
   body {
-    --main-text-color: #ffffff;
-    --main-background-color: #152028;
+    /*--main-text-color: #ffffff;*/
+    /*--main-background-color: #152028;*/
   }
 }
 
+.header__theme-menu-item {
+}
+
+.header__theme-menu-button {
+  color: var(--text-color);
+  border: none;
+  background-color: transparent;
+  text-transform: lowercase;
+  padding-inline: 13px;
+}
 
 .header__theme-menu-button_active {
   pointer-events: none;
+  outline: 1px solid #353430;
+  padding: 0 13px;
 }
 
 .header__theme-menu-button_active:hover {
@@ -65,8 +117,8 @@
 .header__theme-menu-button_active:focus-visible {
 }
 
-@media (1200px <= width <= 1400px) {
+@media(1200px <= width <= 1400px) {
   body {
-    background-color: red;
+    /*background-color: red;*/
   }
 }
