@@ -2,3 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Переменные светлой темы */
+  --main-font: 'IBM Plex Mono', monospace;
+  --text-color: #353430;
+  --bg-image: url(../images/cover-image-light.png) lightgray 50% / cover no-repeat;
+  --background-color: #FFF1F7;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --main-text-color: #152028;
+    --main-background-color: #ffffff;
+  }
+}

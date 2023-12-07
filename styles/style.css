@@ -2,4 +2,71 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--background-color);
+}
+
+.header {
+  min-block-size: 100vh;
+}
+
+.header__theme-menu-list {
+  display: flex;
+}
+
+.rec {
+  position: absolute;
+}
+
+.rec::after {
+  content: "";
+  position: absolute;
+}
+
+.heading {
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  color: #FFC2E6;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.99;
+}
+
+.title-decor {
+  background: #FF8DCB;
+}
+
+.theme-auto {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --main-text-color: #ffffff;
+    --main-background-color: #152028;
+  }
+}
+
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
+
+.header__theme-menu-button_active:hover {
+}
+
+.header__theme-menu-button_active:focus {
+}
+
+.header__theme-menu-button_active:focus-visible {
+}
+
+@media (1200px <= width <= 1400px) {
+  body {
+    background-color: red;
+  }
 }
