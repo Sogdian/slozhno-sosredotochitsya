@@ -6,14 +6,14 @@ html {
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: var(--backgroundimage);
+  background-image: var(--backgroundimage, url(../images/cover-image-light.png));
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-attachment: fixed;
-  background-color: var(--background-color);
-  font-family: var(--main-font);
-  color: var(--text-color);
+  background-color: var(--background-color, #FFF1F7);
+  font-family: var(--main-font, monospace);
+  color: var(--text-color, #353430);
   font-size: 18px;
 }
 
@@ -66,8 +66,8 @@ html {
 
 .heading {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
-  text-shadow: 4px 4px 0 var(--accent-color);
-  color: #FFC2E6;
+  text-shadow: 4px 4px 0 var(--text-shadow, #FF0070);
+  color: var(--logo-color, #FFC2E6);
   line-height: 0.825;
   grid-row: 2/3;
   align-self: center;
@@ -84,7 +84,7 @@ html {
 }
 
 .title-decor {
-  background: #FF8DCB;
+  background: var(--background-text-color, #FF8DCB);
   font-weight: 700;
 }
 
@@ -103,7 +103,7 @@ html {
 }
 
 .header__theme-menu-button {
-  color: var(--text-color);
+  color: var(--text-color, #353430);
   border: none;
   background-color: transparent;
   text-transform: lowercase;
