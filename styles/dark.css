@@ -5,13 +5,12 @@
 */
 
 .theme_dark {
+  --title-color: #FF0070;
+  --heading-color: #DB00FF;
+  --header-paragraph-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --text-color: #000028;
-  --article-color: #F1B2CE;
+  --main-text-color: #FF0070;
   --background-color: #000028;
-
-  --title-color: #DB00FF;
-  --logo-color: #FFC2E6;
   --background-text-color: #FF0070;
   --text-shadow: #FF0070;
 }
