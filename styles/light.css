@@ -11,7 +11,12 @@
   */
   --main-font: 'IBM Plex Mono', monospace;
   --text-color: #353430;
-  --backgroundimage: url(../images/cover-image-light.png) lightgray 50% / cover no-repeat;
+  --article-color: #353430;
+  --title-color: #DB00FF;
+  --logo-color: #FFC2E6;
+  --background-image: url(../images/cover-image-light.png);
   --background-color: #FFF1F7;
+  --background-text-color: #FF8DCB;
+  --text-shadow: #FF0070;
 }
 

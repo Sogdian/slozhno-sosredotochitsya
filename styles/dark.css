@@ -5,9 +5,15 @@
 */
 
 .theme_dark {
-  --bg-color: url(../images/cover-image-dark.png), lightgray 50% / cover no-repeat;
-  --text-color: #F1B2CE;
-  --background-color: #000028;;
+  --background-image: url(../images/cover-image-dark.png);
+  --text-color: #000028;
+  --article-color: #F1B2CE;
+  --background-color: #000028;
+
+  --title-color: #DB00FF;
+  --logo-color: #FFC2E6;
+  --background-text-color: #FF0070;
+  --text-shadow: #FF0070;
 }
 
 .page.theme_dark { /*добавить доп разметку из темной темы*/
