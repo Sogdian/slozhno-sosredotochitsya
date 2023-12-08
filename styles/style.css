@@ -109,12 +109,7 @@ html {
 
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    /*--main-text-color: #ffffff;*/
-    /*--main-background-color: #152028;*/
-  }
-}
+
 
 .header__theme-menu-item {
 }
