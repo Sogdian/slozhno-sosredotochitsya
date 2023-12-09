@@ -5,7 +5,8 @@
 
 :root {
   /* Переменные светлой темы */
-  --title-color: #353430;
+  /*--title-color: #353430;*/
+  --text-color: #353430;
   --heading-color: #FFC2E6;
   --header-paragraph-color: #353430;
   --main-font: 'IBM Plex Mono', monospace;

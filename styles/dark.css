@@ -5,7 +5,8 @@
 */
 
 .page.theme_dark {
-  --title-color: #FF0070;
+  /*--title-color: #FF0070;*/
+  --text-color: #F1B2CE;
   --heading-color: #DB00FF;
   --header-paragraph-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
@@ -13,6 +14,7 @@
   --background-color: #000028;
   --background-text-color: #FF0070;
   --text-shadow: #FF0070;
+
 }
 
 /*.page.theme_dark { !*добавить доп разметку из темной темы*!*/
