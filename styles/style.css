@@ -72,11 +72,15 @@ html {
 /*  position: absolute;*/
 /*}*/
 
-.header__heading {
-  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+.heading {
+  /*font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);*/
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 4px 4px 0 var(--text-shadow);
   color: var(--heading-color);
   line-height: 0.825;
+}
+
+.header__heading {
   grid-row: 2/3;
   align-self: center;
   grid-column: span 2;
@@ -194,6 +198,7 @@ html {
                       "tape street street";
   gap: 20px;
   /*grid-auto-flow: dense;*/
+  margin-block-end: 60px;
 }
 
 .picture {
@@ -254,6 +259,12 @@ html {
 
 .footer {
   min-block-size: 100vh;
+  display: flex;
+}
+
+.footer__heading {
+
+  margin: auto;
 }
 
 @media(1200px <= width <= 1400px) {
