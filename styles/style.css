@@ -139,17 +139,25 @@ html {
 .hard-concentrate {
   display: grid;
   gap: 20px;
-  margin-block-end: 80px;
   grid-template-columns: minmax(236px, 315px) minmax(472px, 1fr);
+}
+
+.content {
+  margin-block-end: 80px;
 }
 
 .content__title {
   font-size: 18px;
   color: var(--main-text-color);
+  margin-block-end: 20px;
 }
 
 .content-card__item:not(:last-child) {
   margin-block-end: 20px;
+}
+
+.normal-weight {
+  font-weight: normal;
 }
 
 .content-card__title {
@@ -167,7 +175,7 @@ html {
   display: grid;
   gap: 20px;
   grid-template-columns: max(315px) 1fr;
-  margin-block-end: 20px;
+
 }
 
 .reduces-concentration__list {
