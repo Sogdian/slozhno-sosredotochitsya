@@ -140,12 +140,12 @@ html {
   padding: 0 20px;
 }
 
+/**/
 .content {
   display: grid;
   gap: 20px;
   margin-block-end: 80px;
-  grid-template-columns: minmax(236px, 315px) 1fr;
-
+  grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
 }
 
 .content__title {
@@ -156,20 +156,21 @@ html {
 .content__card {
 }
 
+.content-card__item:not(:last-child) {
+  margin-block-end: 20px;
+}
+
 .content-card__title {
   font-size: 18px;
   color: var(--main-text-color);
   margin-block-end: 10px;
 }
 
-.content-card__item:not(:last-child) {
-  margin-block-end: 20px;
-}
-
 .content-card__paragraph {
   font-size: 18px;
 }
 
+/**/
 .column-card {
   display: grid;
   gap: 20px;
@@ -183,9 +184,11 @@ html {
  margin-block-end: 20px;
 }
 
-.content-column {
 
-}
+
+
+
+
 
 
 
