@@ -267,9 +267,31 @@
   margin: auto;
 }
 
-@media(1200px <= width <= 1400px) {
+@media(768px < width <= 1024px) {
   body {
     /*background-color: red;*/
   }
 }
 
+@media(375px < width <= 768px) {
+  .heading {
+    text-shadow: 4px 4px 0 var(--background-text-color);
+  }
+  .header__theme-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin: 0;
+  }
+  .header__theme-menu-list {
+    flex-direction: column;
+    margin-block-start: 0;
+    gap: 10px;
+  }
+}
+
+@media(width <= 375px) {
+  body {
+    /*background-color: red;*/
+  }
+}
