@@ -26,6 +26,7 @@ html {
                       "title"
                       "paragraph";
   position: relative;
+  margin-block-end: 60px;
 }
 
 .header::before {
