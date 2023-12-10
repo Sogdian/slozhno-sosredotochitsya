@@ -137,16 +137,14 @@ html {
 }
 
 .content {
-
+  padding: 0 20px;
 }
 
 .content-section {
   display: grid;
-  padding: 0 20px;
+  gap: 20px;
+  margin-block-end: 80px;
   grid-template-columns: minmax(236px, 315px) 1fr;
-  /*grid-template-areas: "content__title"*/
-  /*                    "paragraph";*/
-  column-gap: 20px;
 
 }
 
@@ -166,6 +164,22 @@ html {
   margin-block-end: 20px;
 }
 
+.column-card {
+  display: grid;
+  gap: 20px;
+  margin-block-end: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: 100px max(431px);*/
+
+}
+
+.column-title {
+ margin-block-end: 20px;
+}
+
+.content-column {
+
+}
 
 
 
