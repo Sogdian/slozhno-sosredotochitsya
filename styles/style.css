@@ -156,6 +156,8 @@ html {
   margin-block-end: 20px;
 }
 
+
+
 .normal-weight {
   font-weight: normal;
 }
@@ -164,6 +166,10 @@ html {
   font-size: 18px;
   color: var(--header-paragraph-color);
   margin-block-end: 10px;
+}
+
+.title-card {
+  margin-block-end: 20px;
 }
 
 .content-card__paragraph {
