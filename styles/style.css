@@ -174,7 +174,7 @@
 }
 
 /**/
-.reduces-concentration__title {
+.reduces-concentration {
   display: grid;
   gap: 20px;
   grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
