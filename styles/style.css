@@ -184,6 +184,57 @@ html {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.pictures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(230px, 1fr));
+  /*grid-template-rows: minmax(192px, 260px) minmax(230px, 315px) minmax(318px, 428px);*/
+  grid-template-areas: "sunset sunset ice-cream"
+                      "tape books ice-cream"
+                      "tape street street";
+  gap: 20px;
+  grid-auto-flow: dense;
+}
+
+.picture {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sunset {
+  width: 649px;
+  height: 260px;
+  grid-area: sunset;
+  /*grid-column: span2;*/
+}
+
+.ice-cream {
+  width: 315px;
+  height: 595px;
+  grid-area: ice-cream;
+  /*grid-row: span2;*/
+}
+
+.tape {
+  width: 315px;
+  height: 768px;
+  grid-area: tape;
+  /*grid-row: span2;*/
+}
+
+.books {
+  width: 315px;
+  height: 315px;
+  grid-area: books;
+}
+
+.street {
+  width: 649px;
+  height: 428px;
+  grid-area: street;
+  /*grid-column: span2;*/
+}
+
 
 .footer {
   min-block-size: 100vh;
