@@ -300,8 +300,14 @@
   .heading {
     font-size: 116px;
   }
+  .header {
+    margin-block-end: 40px;
+  }
   .header__paragraph  {
     grid-column: span 2;
+  }
+  .content {
+    margin-block-end: 50px;
   }
   .content-concentrate {
     display: flex;
