@@ -297,7 +297,35 @@
 }
 
 @media(width <= 375px) {
-  body {
-    /*background-color: red;*/
+  .heading {
+    font-size: 116px;
+  }
+  .header__paragraph  {
+    grid-column: span 2;
+  }
+  .content-concentrate {
+    display: flex;
+    flex-direction: column;
+  }
+  .reduces-concentration {
+    display: flex;
+    flex-direction: column;
+  }
+  .reduces-concentration__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    /*grid-template-columns: repeat(3, minmax(230px, 1fr));*/
+    /*grid-template-rows: minmax(192px, 1fr) minmax(230px, 1fr) minmax(318px, 1fr);*/
+    /*grid-template-rows: auto auto auto;*/
+    /*grid-template-areas: "sunset sunset ice-cream"*/
+                      "tape books ice-cream"
+                      "tape street street";
+    /*gap: 20px;*/
+    /*grid-auto-flow: dense;*/
+    /*margin-block-end: 60px;*/
   }
 }
