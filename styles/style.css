@@ -259,6 +259,7 @@
 .footer {
   min-block-size: 100vh;
   display: flex;
+  margin-block-end: 0;
 }
 
 .footer__heading {
