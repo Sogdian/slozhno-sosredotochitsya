@@ -106,12 +106,6 @@ html {
   /*font-weight: 700;*/
 }
 
-.theme-auto {
-}
-
-.header__theme-menu-item {
-}
-
 .header__theme-menu-button {
   color: var(--main-text-color);
   border: none;
