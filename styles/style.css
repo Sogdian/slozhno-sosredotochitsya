@@ -244,6 +244,7 @@
 
 .footer__heading {
   margin: auto;
+  text-shadow: 2px 2px 0 var(--text-shadow);
 }
 
 @media (width <= 768px) {
