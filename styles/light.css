@@ -28,18 +28,3 @@
   display: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --text-color: #353430;
-    --heading-color: #FFC2E6;
-    --header-paragraph-color: #353430;
-    --main-font: 'IBM Plex Mono', monospace;
-    --main-text-color: #353430;
-    --background-image: url(../images/cover-image-light.png);
-    --background-color: #FFF1F7;
-    --background-text-color: #FF8DCB;
-    --text-shadow: #FF0070;
-  }
-}
-
-
