@@ -351,8 +351,8 @@
     /*grid-template-rows: minmax(192px, 1fr) minmax(230px, 1fr) minmax(318px, 1fr);*/
     /*grid-template-rows: auto auto auto;*/
     /*grid-template-areas: "sunset sunset ice-cream"*/
-                      "tape books ice-cream"
-                      "tape street street";
+    /*                  "tape books ice-cream"*/
+    /*                  "tape street street";*/
     gap: 10px;
     /*grid-auto-flow: dense;*/
     margin-block-end: 40px;
