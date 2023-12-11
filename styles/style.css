@@ -312,6 +312,10 @@
   .header__theme-menu {
     margin-inline-end: 10px;
   }
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
   .decorated-zone::after {
     bottom: 10px;
     left: 10px;
