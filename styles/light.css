@@ -20,11 +20,11 @@
   --text-shadow: #FF0070;
 }
 
-.page.theme_light .record {
+.page.theme_light .header__record {
   display: none;
 }
 
-.page.theme_auto .record {
+.page.theme_auto .header__record {
   display: none;
 }
 
