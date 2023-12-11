@@ -353,4 +353,8 @@
     /*grid-auto-flow: dense;*/
     margin-block-end: 40px;
   }
+
+  .footer__heading {
+    margin: auto;
+  }
 }
