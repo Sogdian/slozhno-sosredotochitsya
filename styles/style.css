@@ -103,7 +103,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid currentColor;
+  outline: 1px solid currentColor;
 }
 
 .header__theme-menu-button:focus {
