@@ -300,6 +300,7 @@
 @media(width = 375px) {
   .heading {
     font-size: 116px;
+    margin: 0 10px;
   }
   .header {
     margin-block-end: 40px;
