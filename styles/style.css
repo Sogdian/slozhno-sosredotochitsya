@@ -122,8 +122,8 @@
 .content-concentrate {
   display: grid;
   gap: 20px;
-  /*grid-template-columns: minmax(236px, 315px) minmax(472px, 1fr);*/
-  grid-template-columns: minmax(236px, 355px) minmax(351px, 1fr);
+  grid-template-columns: minmax(236px, 315px) minmax(472px, 1fr);
+  /*grid-template-columns: minmax(236px, 355px) minmax(351px, 1fr);*/
   /*grid-template-columns: minmax(157px, 355px) minmax(157px, 1fr);*/
 }
 
