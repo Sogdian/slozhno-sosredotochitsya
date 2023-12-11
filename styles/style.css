@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--background-image);
@@ -18,15 +17,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr auto 1fr;
-  grid-template-areas: "nav"
-                      "title"
-                      "paragraph";
+  grid-template-areas:
+    'nav'
+    'title'
+    'paragraph';
   position: relative;
   margin-block-end: 60px;
 }
 
 .decorated-zone::before {
-  content: "";
+  content: '';
   position: absolute;
   border-top: 1px solid #353430;
   border-right: 1px solid #353430;
@@ -37,7 +37,7 @@
 }
 
 .decorated-zone::after {
-  content: "";
+  content: '';
   position: absolute;
   border-bottom: 1px solid #353430;
   border-left: 1px solid #353430;
@@ -64,12 +64,10 @@
 /*.rec {*/
 /*  position: absolute;*/
 /*}*/
-
 /*.rec::after {*/
 /*  content: "";*/
 /*  position: absolute;*/
 /*}*/
-
 .heading {
   /*font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);*/
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -90,11 +88,9 @@
   align-self: center;
   justify-self: flex-end;
   font-weight: 700;
-
   font-style: normal;
   line-height: 1.3;
   margin-inline-end: 20px;
-
   grid-area: paragraph;
   grid-column: 2/3;
 }
@@ -118,15 +114,12 @@
   padding: 0 13px;
 }
 
-.header__theme-menu-button_active:hover {
-}
-
-.header__theme-menu-button_active:focus {
-}
-
-.header__theme-menu-button_active:focus-visible {
-}
-
+/*.header__theme-menu-button_active:hover {*/
+/*}*/
+/*.header__theme-menu-button_active:focus {*/
+/*}*/
+/*.header__theme-menu-button_active:focus-visible {*/
+/*}*/
 .main-content {
   padding: 0 20px;
 }
@@ -151,8 +144,6 @@
 .content-card__item:not(:last-child) {
   margin-block-end: 20px;
 }
-
-
 
 .normal-weight {
   font-weight: normal;
@@ -191,9 +182,10 @@
   grid-template-columns: repeat(3, minmax(230px, 1fr));
   /*grid-template-rows: minmax(192px, 1fr) minmax(230px, 1fr) minmax(318px, 1fr);*/
   grid-template-rows: auto auto auto;
-  grid-template-areas: "sunset sunset ice-cream"
-                      "tape books ice-cream"
-                      "tape street street";
+  grid-template-areas:
+    'sunset sunset ice-cream'
+    'tape books ice-cream'
+    'tape street street';
   gap: 20px;
   /*grid-auto-flow: dense;*/
   margin-block-end: 60px;
@@ -253,7 +245,6 @@
   /*grid-column: span2;*/
 }
 
-
 .footer {
   min-block-size: 100vh;
   display: flex;
@@ -270,8 +261,7 @@
 /*    !*background-color: red;*!*/
 /*  }*/
 /*}*/
-
-@media(width <= 768px) {
+@media (width <= 768px) {
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
@@ -284,66 +274,81 @@
     margin-block-start: 0;
     gap: 13px;
   }
+
   .heading {
     text-shadow: 4px 4px 0 var(--background-text-color);
   }
+
   .reduces-concentration__list {
     display: flex;
     flex-direction: column;
     gap: 0;
   }
+
   .reduces-concentration__item:not(:last-child) {
     margin-block-end: 20px;
   }
 }
 
-@media(width = 375px) {
+@media (width = 375px) {
   .heading {
     font-size: 116px;
     margin: 0 10px;
   }
+
   .header {
     margin-block-end: 40px;
   }
+
   .header::before {
     top: 10px;
     right: 10px;
   }
+
   .header__theme-menu {
     margin-inline-end: 10px;
   }
+
   .decorated-zone::before {
     top: 10px;
     right: 10px;
   }
+
   .decorated-zone::after {
     bottom: 10px;
     left: 10px;
   }
-  .header__paragraph  {
+
+  .header__paragraph {
     grid-column: span 2;
     margin: 0 10px;
   }
+
   .main-content {
     padding: 0 10px;
   }
+
   .content {
     margin-block-end: 50px;
   }
+
   .content-concentrate {
     display: flex;
     flex-direction: column;
     gap: 0;
   }
+
   .reduces-concentration {
     display: flex;
     flex-direction: column;
   }
+
   .reduces-concentration__list {
     /*display: flex;*/
     /*flex-direction: column;*/
     /*gap: 0;*/
   }
+
   .pictures {
     display: flex;
     flex-direction: column;
