@@ -5,7 +5,6 @@
 */
 
 .page.theme_dark {
-  /*--title-color: #FF0070;*/
   --text-color: #F1B2CE;
   --heading-color: #DB00FF;
   --header-paragraph-color: #000028;
@@ -23,6 +22,25 @@
 /*    чем стили в медиазапросе предпочтений пользователя*/
 /*  *!*/
 /*}*/
+
+.page.theme_dark .record {
+  position: absolute;
+  color: var(--main-text-color);
+  top: 20px;
+  right: 48px;
+}
+
+.page.theme_dark .record::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: var(--main-text-color);
+  filter: drop-shadow(0px 0px 4px var(--main-text-color));
+  border-radius: 50%;
+  left: 43px;
+  top: 8px;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
