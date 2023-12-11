@@ -350,6 +350,6 @@
                       "tape street street";
     gap: 10px;
     /*grid-auto-flow: dense;*/
-    /*margin-block-end: 60px;*/
+    margin-block-end: 40px;
   }
 }
