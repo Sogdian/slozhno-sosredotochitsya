@@ -336,6 +336,7 @@
   .reduces-concentration__list {
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
   .pictures {
     display: flex;
