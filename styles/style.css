@@ -160,6 +160,22 @@
   line-height: 1.3;
 }
 
+.content-card__paragraph-link {
+  text-shadow: 2px 2px 0 var(--background-text-color);
+  text-decoration: none;
+}
+
+.content-card__paragraph-link:hover {
+  border-block-end: 1px solid currentColor;
+  outline-offset: 1px;
+}
+.content-card__paragraph-link:focus {
+  outline: none;
+}
+.content-card__paragraph-link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
 .reduces-concentration {
   display: grid;
   gap: 20px;

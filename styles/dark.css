@@ -44,7 +44,7 @@
 
 @media (prefers-color-scheme: dark) {
   body {
-    --title-color: #FF0070;
+    --text-color: #F1B2CE;
     --heading-color: #DB00FF;
     --header-paragraph-color: #000028;
     --background-image: url(../images/cover-image-dark.png);
