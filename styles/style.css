@@ -329,6 +329,11 @@
   .reduces-concentration {
     display: flex;
     flex-direction: column;
+    margin-block-start: 5px;
+  }
+
+  ..title-card {
+    margin-block-end: 10px;
   }
 
   .pictures {
