@@ -179,6 +179,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
+  margin-block-start: 5px;
 }
 
 .reduces-concentration__list {
@@ -328,7 +329,6 @@
   .reduces-concentration {
     display: flex;
     flex-direction: column;
-    margin-block-start: 5px;
   }
 
   .header_margin_10 {
