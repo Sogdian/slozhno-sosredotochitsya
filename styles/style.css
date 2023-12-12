@@ -277,12 +277,8 @@
 }
 
 @media (375px <= width < 768px) {
-  .heading {
-    font-size: 116px;
-    margin: 0 10px;
-  }
-
   .header {
+    grid-template-rows: 228px 1fr 228px;
     margin-block-end: 40px;
   }
 
@@ -307,6 +303,11 @@
 
   .header__paragraph {
     grid-column: span 2;
+    margin: 0 10px;
+  }
+
+  .heading {
+    font-size: 116px;
     margin: 0 10px;
   }
 
