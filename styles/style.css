@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr auto 1fr;
+  /*grid-template-rows: 299px 1fr 625px;*/
   grid-template-areas:
     'nav'
     'title'
@@ -80,6 +81,7 @@
   margin-inline-end: 20px;
   grid-area: paragraph;
   grid-column: 2/3;
+  margin-block-end: 5px;
 }
 
 .title-decor {

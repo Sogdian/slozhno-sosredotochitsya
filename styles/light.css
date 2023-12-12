@@ -17,7 +17,7 @@
 
 @media (prefers-color-scheme: light) {
 
-  body {
+  :root {
     --text-color: #353430;
     --heading-color: #ffc2e6;
     --header-paragraph-color: #353430;

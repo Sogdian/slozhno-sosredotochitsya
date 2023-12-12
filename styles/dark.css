@@ -60,7 +60,7 @@
 
 @media (prefers-color-scheme: dark) {
 
-  body {
+  :root {
     --text-color: #f1b2ce;
     --heading-color: #db00ff;
     --header-paragraph-color: #000028;
