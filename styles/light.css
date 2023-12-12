@@ -11,6 +11,10 @@
   --rec-non-visibility: none;
 }
 
+.page.theme_light .header__record {
+  display: var(--rec-non-visibility);
+}
+
 @media (prefers-color-scheme: light) {
 
   :root {
