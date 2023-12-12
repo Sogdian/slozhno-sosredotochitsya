@@ -250,7 +250,6 @@
 }
 
 @media (width <= 768px) {
-
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
@@ -280,7 +279,6 @@
 }
 
 @media (width < 768px) {
-
   .header {
     grid-template-rows: 228px 1fr 228px;
     margin-block-end: 40px;
