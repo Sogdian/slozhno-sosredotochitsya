@@ -279,6 +279,7 @@
 @media (375px <= width < 768px) {
   .header {
     grid-template-rows: 228px 1fr 228px;
+    gap: 5px;
     margin-block-end: 40px;
   }
 
