@@ -116,6 +116,10 @@
   background-color: var(--background-text-color);
 }
 
+.header__record {
+  display: var(--rec-non-visibility);
+}
+
 .main-content {
   padding: 0 20px;
 }
