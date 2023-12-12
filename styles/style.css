@@ -252,6 +252,7 @@
     justify-content: flex-end;
     align-self: center;
     margin-inline-end: 20px;
+    margin-block-start: 20px;
   }
 
   .header__theme-menu-list {
