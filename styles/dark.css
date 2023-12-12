@@ -7,6 +7,7 @@
   --background-color: #000028;
   --background-text-color: #ff0070;
   --text-shadow: #ff0070;
+  --rec-non-visibility: initial;
 }
 
 .page.theme_dark .header__record {
@@ -33,6 +34,7 @@
   color: var(--main-text-color);
   top: 20px;
   right: 48px;
+  display: var(--rec-non-visibility);
 }
 
 .page.theme_auto .header__record::after {
@@ -45,6 +47,7 @@
   border-radius: 50%;
   right: -19px;
   top: 8px;
+  display: var(--rec-non-visibility);
 }
 
 @media (width = 375px) {

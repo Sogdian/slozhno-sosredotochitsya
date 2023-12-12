@@ -8,10 +8,11 @@
   --background-color: #fff1f7;
   --background-text-color: #ff8dcb;
   --text-shadow: #ff0070;
+  --rec-non-visibility: none;
 }
 
 .page.theme_light .header__record {
-  display: none;
+  display: var(--rec-non-visibility);
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,5 +27,6 @@
     --background-color: #fff1f7;
     --background-text-color: #ff8dcb;
     --text-shadow: #ff0070;
+    --rec-non-visibility: none;
   }
 }
