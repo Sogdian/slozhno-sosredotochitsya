@@ -69,5 +69,6 @@
     --background-color: #000028;
     --background-text-color: #ff0070;
     --text-shadow: #ff0070;
+    --rec-non-visibility: initial;
   }
 }
