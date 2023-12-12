@@ -116,6 +116,25 @@
   background-color: var(--background-text-color);
 }
 
+.header__record {
+  position: absolute;
+  color: var(--main-text-color);
+  top: 20px;
+  right: 48px;
+}
+
+.header__record::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: var(--main-text-color);
+  filter: drop-shadow(0 0 4px var(--main-text-color));
+  border-radius: 50%;
+  right: -19px;
+  top: 8px;
+}
+
 .main-content {
   padding: 0 20px;
 }
