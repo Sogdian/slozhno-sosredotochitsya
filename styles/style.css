@@ -276,7 +276,7 @@
   }
 }
 
-@media (width = 375px) {
+@media (width <= 767px) {
   .heading {
     font-size: 116px;
     margin: 0 10px;
