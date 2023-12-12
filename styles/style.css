@@ -325,6 +325,7 @@
   .header__paragraph {
     grid-column: span 2;
     margin: 0 10px;
+    margin-block-end: 20px;
   }
 
   .heading {
