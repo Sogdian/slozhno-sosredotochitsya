@@ -76,6 +76,7 @@
   background-color: transparent;
   text-transform: lowercase;
   padding-inline: 13px;
+  transition: outline 0.1s;
 }
 
 .header__theme-menu-button_active {
