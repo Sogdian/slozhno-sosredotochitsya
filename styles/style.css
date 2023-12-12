@@ -169,9 +169,11 @@
   border-block-end: 1px solid currentColor;
   outline-offset: 1px;
 }
+
 .content-card__paragraph-link:focus {
   outline: none;
 }
+
 .content-card__paragraph-link:focus-visible {
   outline: 1px solid currentColor;
 }
@@ -248,6 +250,7 @@
 }
 
 @media (width <= 768px) {
+
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
@@ -277,6 +280,7 @@
 }
 
 @media (width < 768px) {
+
   .header {
     grid-template-rows: 228px 1fr 228px;
     margin-block-end: 40px;
