@@ -32,6 +32,11 @@
     top: 10px;
     right: 38px;
   }
+
+  .page.theme_auto .header__record {
+    top: 10px;
+    right: 38px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
