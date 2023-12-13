@@ -191,13 +191,13 @@
   display: grid;
   gap: 20px;
   grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
-  margin-block-start: 5px;
 }
 
 .reduces-concentration__list {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+  margin-block-start: 5px;
 }
 
 .reduces-concentration__item:not(:last-child) {
