@@ -29,10 +29,10 @@
   position: absolute;
   border-top: 1px solid var(--main-text-color);
   border-right: 1px solid var(--main-text-color);
-  width: 25px;
-  height: 25px;
-  top: 20px;
-  right: 20px;
+  inline-size: 25px;
+  block-size: 25px;
+  inset-block-start: 20px;
+  inset-inline-end: 20px;
 }
 
 .decorated-zone::after {
@@ -40,10 +40,29 @@
   position: absolute;
   border-bottom: 1px solid var(--main-text-color);
   border-left: 1px solid var(--main-text-color);
-  width: 25px;
-  height: 25px;
-  bottom: 20px;
-  left: 20px;
+  inline-size: 25px;
+  block-size: 25px;
+  inset-block-end: 20px;
+  inset-inline-start: 20px;
+}
+
+.header__record {
+  position: absolute;
+  color: var(--main-text-color);
+  top: 20px;
+  right: 48px;
+}
+
+.header__record::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: var(--main-text-color);
+  filter: drop-shadow(0 0 4px var(--main-text-color));
+  border-radius: 50%;
+  right: -19px;
+  top: 8px;
 }
 
 .heading {
@@ -115,25 +134,6 @@
 
 .title-decor {
   background-color: var(--background-text-color);
-}
-
-.header__record {
-  position: absolute;
-  color: var(--main-text-color);
-  top: 20px;
-  right: 48px;
-}
-
-.header__record::after {
-  content: '';
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  background-color: var(--main-text-color);
-  filter: drop-shadow(0 0 4px var(--main-text-color));
-  border-radius: 50%;
-  right: -19px;
-  top: 8px;
 }
 
 .main-content {
@@ -321,6 +321,16 @@
   .decorated-zone::after {
     bottom: 10px;
     left: 10px;
+  }
+
+  .header__record {
+    top: 10px;
+    right: 38px;
+  }
+
+  .header__record::after  {
+    top: 8px;
+    right: -19px;
   }
 
   .header__paragraph {
