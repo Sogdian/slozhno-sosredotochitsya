@@ -373,6 +373,10 @@
     gap: 0;
   }
 
+  .reduces-content {
+    margin-block-end: 50px;
+  }
+
   .reduces-concentration {
     display: flex;
     flex-direction: column;
