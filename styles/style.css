@@ -296,6 +296,10 @@
     margin-block-start: 120px;
   }
 
+  .reduces-concentration {
+    margin-block-start: 1px;
+  }
+
   .reduces-concentration__list {
     display: flex;
     flex-direction: column;
