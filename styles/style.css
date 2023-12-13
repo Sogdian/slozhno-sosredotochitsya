@@ -197,7 +197,6 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  margin-block-start: 5px;
 }
 
 .reduces-concentration__item:not(:last-child) {
@@ -293,6 +292,10 @@
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+
+  .header__paragraph {
+    inline-size: 364px;
   }
 }
 
