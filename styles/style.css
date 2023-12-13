@@ -297,7 +297,7 @@
   }
 
   .reduces-concentration {
-    margin-block-start: 1px;
+    margin-block-end: 1px;
   }
 
   .reduces-concentration__list {
