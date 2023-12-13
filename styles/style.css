@@ -319,8 +319,18 @@
     right: 10px;
   }
 
+  .header__heading {
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
+  }
+
   .header__theme-menu {
     margin-inline-end: 10px;
+    margin-block-start: 23px;
+  }
+
+  .heading {
+    font-size: 116px;
   }
 
   .decorated-zone::before {
@@ -344,13 +354,9 @@
   }
 
   .header__paragraph {
+    inline-size: 355px;
     margin: 0 10px;
     margin-block-end: 20px;
-  }
-
-  .heading {
-    font-size: 116px;
-    margin: 0 10px;
   }
 
   .main-content {
