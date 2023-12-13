@@ -187,6 +187,10 @@
   outline: 1px solid currentColor;
 }
 
+.reduces-content {
+  margin-block-end: 85px;
+}
+
 .reduces-concentration {
   display: grid;
   gap: 20px;
@@ -271,11 +275,10 @@
 
 @media (width <= 768px) {
   .header__theme-menu {
-    display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
     align-self: center;
     margin-inline-end: 20px;
-    margin-block-start: 20px;
+    margin-block-start: 135px;
   }
 
   .header__theme-menu-list {
@@ -288,6 +291,11 @@
     text-shadow: 4px 4px 0 var(--background-text-color);
   }
 
+  .header__heading {
+    align-self: normal;
+    margin-block-start: 120px;
+  }
+
   .reduces-concentration__list {
     display: flex;
     flex-direction: column;
@@ -296,6 +304,7 @@
 
   .header__paragraph {
     inline-size: 364px;
+    margin-block-end: 130px;
   }
 }
 
