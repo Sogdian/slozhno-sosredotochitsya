@@ -14,19 +14,3 @@
 .page.theme_light .header__record {
   display: var(--rec-non-visibility);
 }
-
-@media (prefers-color-scheme: light) {
-
-  :root {
-    --text-color: #353430;
-    --heading-color: #ffc2e6;
-    --header-paragraph-color: #353430;
-    --main-font: 'IBM Plex Mono', monospace;
-    --main-text-color: #353430;
-    --background-image: url(../images/cover-image-light.png);
-    --background-color: #fff1f7;
-    --background-text-color: #ff8dcb;
-    --text-shadow: #ff0070;
-    --rec-non-visibility: none;
-  }
-}

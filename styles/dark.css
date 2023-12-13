@@ -26,21 +26,7 @@
   display: var(--rec-non-visibility);
 }
 
-@media (width = 375px) {
-
-  .page.theme_dark .header__record {
-    top: 10px;
-    right: 38px;
-  }
-
-  .page.theme_auto .header__record {
-    top: 10px;
-    right: 38px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
-
   :root {
     --text-color: #f1b2ce;
     --heading-color: #db00ff;
